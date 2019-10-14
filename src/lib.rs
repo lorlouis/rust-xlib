@@ -12,6 +12,7 @@
 #![crate_type = "dylib"]
 #![crate_type = "rlib"]
 
+#![feature(rustc_private)]
 extern crate libc;
 #[macro_use] extern crate bitflags;
 pub use xlib::*;
